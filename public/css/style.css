@@ -744,3 +744,187 @@ ul {
     background-color: #53bff0;
     color: #fff;
 }
+
+/*banner*/
+
+.banner-section {
+    background: url(https://source.unsplash.com/featured/?help) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container-1 {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    border: 0.3em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 150px;
+}
+
+.inner-container-1 h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.inner-container-1 span {
+    color: royalblue;
+}
+/* 
+.text-1 {
+    font-size: 20px;
+    font-style: oblique;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.text-1 span {
+    color: royalblue;
+} */
+
+@media screen and (max-width: 1200px) {
+    .inner-container-1 {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner-section {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container-1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-section {
+        padding: 0;
+    }
+    .inner-container-1 {
+        padding: 60px;
+        background-color: seashell;
+        text-align: center;
+    }
+    .text-1 {
+        font-size: 20px;
+        font-style: oblique;
+        color: #545454;
+        line-height: 30px;
+        text-align: justify;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+   
+}
+
+.logi-banner-btn a {
+    position: relative;
+    margin: 20px 0;
+    color: #000;
+    font-size: 17px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    padding: 10px 15px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.logi-banner-btn a:hover {
+    background: #ff6500;
+    color: #fff;
+    box-shadow: 0 0 5px #ff6500, 0 0 25px #ff6500, 0 0 50px #ff6500,
+        0 0 200px #ff6500;
+}
+.logi-banner-btn a span {
+    position: absolute;
+    display: block;
+}
+
+.logi-banner-btn a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff6500);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.logi-banner-btn a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ff6500);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.logi-banner-btn a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ff6500);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.logi-banner-btn a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff6500);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}

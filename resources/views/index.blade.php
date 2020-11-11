@@ -70,7 +70,7 @@
 
 
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="col-lg-4 col-md-6 ">
                     <div class="card transition ">
                         <h2 class="transition">Save Pepole</h2>
                         <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -78,7 +78,7 @@
                         <div class="card_circle transition"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="col-lg-4 col-md-6 ">
                     <div class="card transition ">
                         <h2 class="transition">Save Humanity</h2>
                         <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -86,7 +86,7 @@
                         <div class="card_circle transition"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="col-lg-4 col-md-6 ">
                     <div class="card transition  ">
                         <h2 class="transition">Save World</h2>
                         <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -324,6 +324,26 @@
 
     </section>
      
+
+    <section class="py-5">
+        <div class="banner-section">
+            <div class="inner-container-1">
+                <h1>Here To Help <span>You Every Need.</span></h1>
+                {{-- <p class="text-1">
+                    Here To Help <span>You Every Need.</span>
+                </p> --}}
+                <div class="  d-flex  logi-banner-btn">
+                    <a href="#" class="text-decoration-none ">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Join Now
+                    </a>
+                </div> 
+            </div>
+        </div>
+    </section>
 
         
 
