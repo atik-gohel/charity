@@ -4,9 +4,9 @@
     <!-- Slider Start -->
     <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
         <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         
         <div class="carousel-inner ">
@@ -46,15 +46,14 @@
                 
     
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-
-        <span class="sr-only">Previous</span>
+            <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="sr-only">Next</span>
+            <span class="sr-only">Next</span>
         </a>
-    </div>
-            
+    </div>      
     <!-- Slider End -->
+
 
     <!-- what we do -->
     <section class="wwd">
@@ -102,172 +101,230 @@
 
 
 
-    <section>
+    
+      
+    
+
+    <section class="section-spacing bottom-non inverse-bg">
         <div class="container">
-
-            <div class="btn-box">
-                <button>featured</button>
-                <button>Top Rated</button>
-                <button>Newly Added</button>
-            </div>
-            
             <div class="row">
-        
-                <div class="w-grid">
-                    <div class="wrapper">
-                
-                            <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-                        
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content">
-                        <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn">Donate Now</button>
-                            <button type="button" class="btn">More Detail</button>                      
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value" >
-                    </div>
-                    <div class="icons"><ul>
-                        <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
+                <div class="col-md-12">
+                    <div class="section-title-grid text-center">
+                        <h2><span>Title</span></h2>
                     </div>
                 </div>
-
-                <div class="w-grid">
-                    <div class="wrapper">
-                
-                            <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-                        
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content">
-                        <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn">Donate Now</button>
-                            <button type="button" class="btn">More Detail</button>                      
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value" >
-                    </div>
-                    <div class="icons"><ul>
-                        <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
-                    </div>
-                </div>
-
-                <div class="w-grid">
-                    <div class="wrapper">
-                
-                            <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-                        
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content">
-                        <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn">Donate Now</button>
-                            <button type="button" class="btn">More Detail</button>                      
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value" >
-                    </div>
-                    <div class="icons"><ul>
-                        <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
-                    </div>
-                </div>
-
-                <div class="w-grid">
-                    <div class="wrapper">
-                
-                            <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-                        
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content">
-                        <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn">Donate Now</button>
-                            <button type="button" class="btn">More Detail</button>                      
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value" >
-                    </div>
-                    <div class="icons"><ul>
-                        <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
-                    </div>
-                </div>
-
-                <div class="w-grid">
-                    <div class="wrapper">
-                
-                            <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-                        
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn">Donate Now</button>
-                            <button type="button" class="btn">More Detail</button>                      
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value" >
-                    </div>
-                    <div class="icons"><ul>
-                        <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
-                    </div>
-                </div>
-
             </div>
-        </div>  
+
+            <div class="row cg">
+                <div class="col-md-12 text-center">
+                    <ul id="filter-list">
+                        <li class="filter active">Featured</li>
+                        <li class="filter">Top Rated</li>
+                        <li class="filter">Newly Added</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="row" >
+                <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1" >
+                    <div class="w-grid ">
+                        <div class="wrapper ">
+                    
+                                <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+                            
+                            <div class="title-grid">Chail donation</div>
+                            <div class="place-grid">Junagadh, Gujarat</div>
+                        </div>
+                        <div class="content-1">
+                            <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                            <div>
+                                <button type="button" class="btn-1">Donate Now</button>
+                                <button type="button" class="btn-1">More Detail</button>                      
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" >
+                        </div>
+                        <div class="icons"><ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
+                        </div>
+                    </div>                    
+                </li>
+
+                <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1" >
+                    <div class="w-grid ">
+                        <div class="wrapper ">
+                    
+                                <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+                            
+                            <div class="title-grid">Chail donation</div>
+                            <div class="place-grid">Junagadh, Gujarat</div>
+                        </div>
+                        <div class="content-1">
+                            <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                            <div>
+                                <button type="button" class="btn-1">Donate Now</button>
+                                <button type="button" class="btn-1">More Detail</button>                      
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" >
+                        </div>
+                        <div class="icons"><ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
+                        </div>
+                    </div>                    
+                </li>
+
+                <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1" >
+                    <div class="w-grid ">
+                        <div class="wrapper ">
+                    
+                                <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+                            
+                            <div class="title-grid">Chail donation</div>
+                            <div class="place-grid">Junagadh, Gujarat</div>
+                        </div>
+                        <div class="content-1">
+                            <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                            <div>
+                                <button type="button" class="btn-1">Donate Now</button>
+                                <button type="button" class="btn-1">More Detail</button>                      
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" >
+                        </div>
+                        <div class="icons"><ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
+                        </div>
+                    </div>                    
+                </li>
+
+                <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1" >
+                    <div class="w-grid ">
+                        <div class="wrapper ">
+                    
+                                <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+                            
+                            <div class="title-grid">Chail donation</div>
+                            <div class="place-grid">Junagadh, Gujarat</div>
+                        </div>
+                        <div class="content-1">
+                            <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                            <div>
+                                <button type="button" class="btn-1">Donate Now</button>
+                                <button type="button" class="btn-1">More Detail</button>                      
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" >
+                        </div>
+                        <div class="icons"><ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
+                        </div>
+                    </div>                    
+                </li>
+
+                <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1" >
+                    <div class="w-grid ">
+                        <div class="wrapper ">
+                    
+                                <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+                            
+                            <div class="title-grid">Chail donation</div>
+                            <div class="place-grid">Junagadh, Gujarat</div>
+                        </div>
+                        <div class="content-1">
+                            <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                            <div>
+                                <button type="button" class="btn-1">Donate Now</button>
+                                <button type="button" class="btn-1">More Detail</button>                      
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" >
+                        </div>
+                        <div class="icons"><ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
+                        </div>
+                    </div>                    
+                </li>
+
+                <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1" >
+                    <div class="w-grid ">
+                        <div class="wrapper ">
+                    
+                                <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+                            
+                            <div class="title-grid">Chail donation</div>
+                            <div class="place-grid">Junagadh, Gujarat</div>
+                        </div>
+                        <div class="content-1">
+                            <p >Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                            <div>
+                                <button type="button" class="btn-1">Donate Now</button>
+                                <button type="button" class="btn-1">More Detail</button>                      
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" >
+                        </div>
+                        <div class="icons"><ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li></ul>
+                        </div>
+                    </div>                    
+                </li>
+            </ul>
+        </div>
+
     </section>
-        
      
+
         
 
 @endsection
