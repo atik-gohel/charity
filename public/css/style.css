@@ -272,26 +272,15 @@ body {
 /*
 *
 * ==========================================
-* Body Start 
+* slider start
 * ==========================================
 *
 */
 
-/*
-*
-* ==========================================
-* Body End
-* ==========================================
-*
-*/
 
-/*
-*
-* ==========================================
-* Slide One  Start
-* ==========================================
-*
-*/
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
 
 .carousel-indicators li {
     width: 10px;
@@ -299,98 +288,124 @@ body {
     border-radius: 100%;
     background-color: #ffffff;
 }
-
-/*Frist slider background */
-.slide-1 {
-    /*background-image: url("../img/hs1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover*/
-    /* background-color: #3487f7; */
-    background-blend-mode: overlay;
-    background: linear-gradient(141.53deg, #ffffff 50.46%, #3487f7 50%);
-}
-
-/*right side image box on slider*/
-.img-box {
-    width: 555px;
+#hero {
+    width: 100%;
     position: relative;
-}
-
-/*small image on slider*/
-.pic-1 {
-    width: 100%;
-}
-
-/*set margin of slidr to top */
-.carousel-item .row {
-    margin: 12% 0;
-    width: auto;
-}
-
-/*Slider 1 heading css*/
-.slide-1 h1 {
-    font-size: 10vh;
-    color: #3487f7;
-    font-family: "Kaushan Script", cursive;
-}
-
-/*Slider 1 paragraph css*/
-.slide-1 p {
-    margin: 30px 0;
-    font-size: 2.5vh;
-    color: #3487f7;
-}
-
-/*
-*
-* ==========================================
-* Slide One End 
-* ==========================================
-*
-*/
-
-/*
-*
-* ==========================================
-* Slide Second Start
-* ==========================================
-*
-*/
-
-.img-1 {
-    width: 100%;
-}
-
-.slide-2 {
-    /*background-image: url("../img/hs1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover*/
-    background-blend-mode: overlay;
-    background: linear-gradient(218.53deg, #ffffff 50%, #3487f7 50%);
-}
-
-/*Slider 2 heading css*/
-.slide-2 h1 {
-    margin-top: 50px;
+    overflow: hidden;
+    padding: 140px 0 100px 0;
+    margin-bottom: -75px;
+  }
+  
+  #hero::before {
+    content: '';
+    position: absolute;
+    right: -100%;
+    top: 20%;
+    width: 250%;
+    height: 200%;
+    z-index: -1;
+    background-color: #e8ecf5;
+    transform: skewY(135deg);
+  }
+  
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #5777ba;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #hero h2 {
+    color: #515f7d;
     margin-bottom: 50px;
-    font-size: 10vh;
-    color: #ffffff;
-    font-family: "Kaushan Script", cursive;
-}
+    font-size: 20px;
+  }
+/*   
+  #hero .download-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 24px 10px 46px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #47536e;
+    position: relative;
+  }
+  
+  #hero .download-btn:hover {
+    background: #5777ba;
+  }
+  
+  #hero .download-btn i {
+    font-size: 20px;
+    position: absolute;
+    left: 18px;
+    top: 8.5px;
+  }
+  
+  #hero .download-btn + .download-btn {
+    margin-left: 20px;
+  }
+ */
 
-/*Slider 2 paragraph css*/
-.slide-2 p {
-    margin: 30px 0 50px;
-    font-size: 2.5vh;
-    color: #ffffff;
-}
+
+  .img-fluid{max-width:100%;height:auto}
+
+
+
+  
+  
+  @media (max-width: 991px) {
+    #hero {
+      text-align: center;
+    }
+    /* #hero .download-btn + .download-btn {
+      margin: 0 10px;
+    } */
+    #hero .hero-img {
+      text-align: center;
+    }
+    #hero .hero-img img {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    #hero .hero-img img {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero .hero-img img {
+      width: 80%;
+    }
+  }
+  
 /*
 *
 * ==========================================
-* Slide Two End 
+* slider end
 * ==========================================
 *
 */
+
+
+
+
 
 /* what we do */
 @media (max-width: 575px) {
@@ -436,6 +451,16 @@ body {
     line-height: 1.4;
 }
 
+@media screen and (max-width: 600px){
+    .section-tittle h2 {
+       
+        font-size: xx-large
+        
+    }
+     
+}
+
+
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,200");
 
 .transition {
@@ -452,9 +477,10 @@ body {
     margin: 25px auto;
     overflow: hidden;
     position: relative;
+    
     right: 0;
     top: 50px;
-    width: 300px;
+    width: 270px;
 }
 
 .card:hover {
@@ -491,7 +517,7 @@ body {
     margin-left: -75px;
     margin-top: -270px;
     position: absolute;
-    width: 450px;
+    width: 145%;
 }
 .card h2 {
     color: #072366;
@@ -753,6 +779,7 @@ ul {
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
+    margin-top: 60px;
 }
 
 .inner-container-1 {
@@ -928,3 +955,240 @@ ul {
         bottom: 100%;
     }
 }
+
+
+
+
+
+/*newssletter*/
+
+
+.home-newsletter {
+    padding: 50px 0;
+    background: #fef8f5;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+   .home-newsletter h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #4e4039;
+  }
+  
+   .home-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+   .home-newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px 4px;
+    width: calc(100% - 100px);
+  }
+  
+   .home-newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #eb5d1e;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+   .home-newsletter form input[type="submit"]:hover {
+    background: #c54811;
+  }
+  
+
+
+
+
+
+/*footer*/
+footer{
+	
+	
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 0px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
+
+
+
+

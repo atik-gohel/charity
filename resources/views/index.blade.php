@@ -12,33 +12,68 @@
         <div class="carousel-inner ">
             <!-- Slider One Start -->
             <div class="carousel-item active slide-1">
-                <div class="container ">
-                    <div class="row  ">
-                        <div class="col-md-6 ">
-                            <h1 class="display-5">We Need Your Support</h1>
-                            <p class="lead">Give Hand To Make The Better World</p>
-                        </div>
-                        <div class="col-md-6  img-box  d-none d-md-block ">
-                            <img src="img/1.png" class="pic-1">
+            <section id="hero" class="d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+                                <div>
+                                    <h1>Here WE Are For You</h1>
+                                    <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
+                                    <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
+                                    <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
+                                <img src="https://source.unsplash.com/featured/?fun" class="img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
             <!-- Slider One End -->
       
             <!-- Slider Two Start -->
             <div class="carousel-item slide-2">
-                <div class="container ">
-                    <div class="row ">
-                        <div class="col-md-6">
-                            <h1 class="display-5">Helping Grow Your Faith</h1>
-                            <p class="lead">Submit Your Presence To The Creator Of The Universe</p>
-                        </div>
-                        <div class="col-md-6 img-box d-none d-md-block">
-                            <img src="img/1.png" class="img-1 ">
+            <section id="hero" class="d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+                                <div>
+                                <h1>Here WE Are For You</h1>
+                                    <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
+                                    <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
+                                    <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
+                                <img src="https://source.unsplash.com/featured/?fun" class="img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
+            </div>
+            <!-- Slider Two End -->
+
+            
+            <!-- Slider three Start -->
+            <div class="carousel-item slide-3">
+                <section id="hero" class="d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+                                <div>
+                                <h1>Here WE Are For You</h1>
+                                    <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
+                                    <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
+                                    <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
+                                <img src="https://source.unsplash.com/featured/?fun" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
             <!-- Slider Two End -->
         </div>
@@ -325,7 +360,7 @@
     </section>
      
 
-    <section class="py-5">
+    <section>
         <div class="banner-section">
             <div class="inner-container-1">
                 <h1>Here To Help <span>You Every Need.</span></h1>
@@ -345,6 +380,22 @@
         </div>
     </section>
 
+        
+    <section>
+        <div class="home-newsletter" data-aos="fade-up">
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h4>Join Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
         
 
 @endsection
