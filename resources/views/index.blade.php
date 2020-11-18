@@ -17,7 +17,7 @@
                         <div class="row">
                             <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
                                 <div>
-                                    <h1>Here WE Are For You</h1>
+                                    <h1>Here We Are For You</h1>
                                     <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
                                     <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
                                     <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a> -->
@@ -39,7 +39,7 @@
                         <div class="row">
                             <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
                                 <div>
-                                <h1>Here WE Are For You</h1>
+                                <h1>Here We Are For You</h1>
                                     <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
                                     <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
                                     <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a> -->
@@ -62,7 +62,7 @@
                         <div class="row">
                             <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
                                 <div>
-                                <h1>Here WE Are For You</h1>
+                                <h1>Here We Are For You</h1>
                                     <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
                                     <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
                                     <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a> -->
@@ -91,22 +91,16 @@
 
 
     <!-- what we do -->
-    <section class="wwd">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
-                        <span>What we are doing</span>
-                        <h2>We Are In A Mission To Help The Helpless</h2>
-                    </div>
-                </div>
-            </div>
 
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 ">
-                    <div class="card transition ">
+    <section id="services" class="services section-bg py-5">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>What We Do</h2>
+          <p>Check out the great services we offer</p>
+        </div>
+        <div class="row wwdp justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-1 transition ">
                         <h2 class="transition">Save Pepole</h2>
                         <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
                         <div class="cta-container transition"><a href="#" class="cta">Call to action</a></div>
@@ -114,7 +108,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 ">
-                    <div class="card transition ">
+                    <div class="card-1 transition ">
                         <h2 class="transition">Save Humanity</h2>
                         <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
                         <div class="cta-container transition"><a href="#" class="cta">Call to action</a></div>
@@ -122,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 ">
-                    <div class="card transition  ">
+                    <div class="card-1 transition  ">
                         <h2 class="transition">Save World</h2>
                         <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
                         <div class="cta-container transition"><a href="#" class="cta">Call to action</a></div>
@@ -131,24 +125,15 @@
                 </div>
 
             </div>
-        </div>
     </section>
 
 
-
-    
-      
-    
-
-    <section class="section-spacing bottom-non inverse-bg">
+    <section class="section-grid">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title-grid text-center">
-                        <h2><span>Title</span></h2>
-                    </div>
-                </div>
-            </div>
+            <div class="section-title" data-aos="fade-up">
+          <h2>Best Site</h2>
+          <p>Check out Now</p>
+        </div>
 
             <div class="row cg">
                 <div class="col-md-12 text-center">
@@ -162,7 +147,7 @@
         </div>
 
         <div class="container">
-            <ul class="row" >
+            <div class="row"  id=filter-itme>
                 <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1" >
                     <div class="w-grid ">
                         <div class="wrapper ">
@@ -354,13 +339,13 @@
                         </div>
                     </div>                    
                 </li>
-            </ul>
+</div>
         </div>
 
     </section>
      
 
-    <section>
+    <!-- <section>
         <div class="banner-section">
             <div class="inner-container-1">
                 <h1>Here To Help <span>You Every Need.</span></h1>
@@ -378,22 +363,22 @@
                 </div> 
             </div>
         </div>
-    </section>
+    </section> -->
 
         
-    <section>
-        <div class="home-newsletter" data-aos="fade-up">
-        <div class="container">
-            <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <h4>Join Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                <form action="" method="post">
-                <input type="email" name="email"><input type="submit" value="Subscribe">
-                </form>
+    <section">
+        <div class="home-newsletter" >
+            <div class="container">
+                <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h4>Join Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+                </div>
             </div>
-            </div>
-        </div>
         </div>
     </section>
         
