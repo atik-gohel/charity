@@ -19,6 +19,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/about', 'App\Http\Controllers\MyController@menu');
+Route::get('about', 'App\Http\Controllers\MyController@menu');
 
-Route::get('/donate-list', 'App\Http\Controllers\MyController@donate_list');
+Route::get('donate-list', 'App\Http\Controllers\MyController@donate_list');
+
+Route::get('contactus', 'App\Http\Controllers\MyController@contact_us');

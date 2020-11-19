@@ -16,4 +16,9 @@ class MyController extends Controller
     {
         return view('donate-list');
     }
+
+    function contact_us()
+    {
+        return view('contactus');
+    }
 }

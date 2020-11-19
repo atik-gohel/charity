@@ -36,13 +36,13 @@
 							<div class="collapse navbar-collapse" id="navbarSupportedContent">
 								<ul class="navbar-nav ml-auto py-4 py-md-0">
 									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-										<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+										<a class="nav-link" href="/">Home</a>
 									</li>
 									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 										<a class="nav-link" href="about">About</a>
 									</li>
 									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-										<a class="nav-link" href="#">Agency</a>
+										<a class="nav-link" href="donate-list">Agency</a>
 									</li>
 									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 										<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -57,7 +57,7 @@
 										<a class="nav-link" href="#">Journal</a>
 									</li>
 									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-										<a class="nav-link" href="#">Contact</a>
+										<a class="nav-link" href="contactus">Contact</a>
 									</li>
 								</ul>
 							</div>
@@ -142,12 +142,12 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script>
+	<!-- <script>
 		const img = document.getElementById("iggrid");
 		img.onclick = function(){
 			this.classList.toggle("active")
 		}
-	</script>
+	</script> -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
