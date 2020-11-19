@@ -42,7 +42,7 @@
 										<a class="nav-link" href="about">About</a>
 									</li>
 									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-										<a class="nav-link" href="donate-list">Agency</a>
+										<a class="nav-link" href="donate-list">Contribute now</a>
 									</li>
 									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 										<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
