@@ -26,3 +26,5 @@ Route::get('donate-list', 'App\Http\Controllers\MyController@donate_list');
 Route::get('contactus', 'App\Http\Controllers\MyController@contact_us');
 
 Route::get('CharityName', 'App\Http\Controllers\MyController@CharityName');
+
+Route::get('Userprofile', 'App\Http\Controllers\MyController@Userprofile');

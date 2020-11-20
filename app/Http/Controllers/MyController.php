@@ -27,5 +27,10 @@ class MyController extends Controller
     {
         return view('CharityName');
     }
+      
+    function Userprofile()
+    {
+        return view('Userprofile');
+    }
     
 }
