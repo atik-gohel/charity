@@ -21,4 +21,11 @@ class MyController extends Controller
     {
         return view('contactus');
     }
+
+    
+    function CharityName()
+    {
+        return view('CharityName');
+    }
+    
 }
