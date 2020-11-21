@@ -71,7 +71,7 @@
                             <!-- Submit Button -->
                             <div class="form-group col-lg-12 mx-auto mb-0 ">
                                 <a href="#" class="btn btn-primary btn-block py-2 btn-acc-cre">
-                                    <span class="font-weight-bold">Create your account</span>
+                                    <span class="font-weight-bold">Login</span>
                                 </a>
                             </div>
 
@@ -96,7 +96,7 @@
 
                             <!-- Already Registered -->
                             <div class="text-center w-100">
-                                <p class="text-muted font-weight-bold">New User?<a href="#" class="text-primary ml-2">Sign up</a></p>
+                                <p class="text-muted font-weight-bold">New User?<a href="signup-user" class="text-primary ml-2">Sign up</a></p>
                             </div>
 
                         </div>

@@ -47,7 +47,7 @@
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="donate-list">Contribute now</a>
                                     </li>
-                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="#">Action</a>
@@ -58,9 +58,13 @@
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="#">Journal</a>
-                                    </li>
+                                    </li> -->
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="contactus">Contact</a>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="login">login</a>
                                     </li>
                                 </ul>
                             </div>
