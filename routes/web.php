@@ -28,3 +28,12 @@ Route::get('contactus', 'App\Http\Controllers\MyController@contact_us');
 Route::get('CharityName', 'App\Http\Controllers\MyController@CharityName');
 
 Route::get('Userprofile', 'App\Http\Controllers\MyController@Userprofile');
+
+Route::get('login', 'App\Http\Controllers\MyController@login');
+
+Route::get('signup-contributer', 'App\Http\Controllers\MyController@signup_contributer');
+
+Route::get('signup-user', 'App\Http\Controllers\MyController@signup_user');
+
+
+

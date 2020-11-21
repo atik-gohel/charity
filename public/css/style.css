@@ -893,6 +893,9 @@ body {
 
 /*newssletter*/
 
+
+/*newssletter*/
+
 .home-newsletter {
     padding: 50px 0;
     background: #fef8f5;
@@ -2709,4 +2712,310 @@ blockquote {
     font-size: 26px;
     padding-top: 4px;
     box-shadow: 0px 1px 35px 0px rgba(255, 255, 255, 0.199);
+}
+
+
+/*sign up as contributer page*/
+
+.sign_up_cont-page {
+    margin-top: 0px;
+}
+
+.sign_up_cont-page .border-md {
+    border-width: 2px;
+}
+
+.sign_up_cont-page .btn-previous {
+    transition: all 0.5s ease-in-out;
+    background: #ee5057;
+    color: #fff;
+    font-weight: 700;
+    border: solid 2px #ee5057;
+}
+
+.sign_up_cont-page .btn-previous:hover,
+.sign_up_cont-page .btn-previous:focus {
+    border: solid 0.5px #ee5057;
+    color: #000000;
+    background-color: #fff;
+    box-shadow: 0.22px 0.22px 5px 0.21px #ee5057;
+}
+
+.sign_up_cont-page .btn-Next-sub {
+    transition: all 0.5s ease-in-out;
+    background: #ee5057;
+    color: #fff;
+    font-weight: 700;
+    border: solid 2px #ee5057;
+}
+
+.sign_up_cont-page .btn-Next-sub:hover,
+.sign_up_cont-page .btn-Next-sub:focus {
+    border: solid 0.5px #ee5057;
+    color: #000000;
+    background-color: #fff;
+    box-shadow: 0.22px 0.22px 5px 0.21px #ee5057;
+}
+
+.sign_up_cont-page .form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+.sign_up_cont-page .select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.sign_up_cont-page .form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.sign_up_cont-page .type-l-p {
+    height: calc(1.5em + .75rem + 17px);
+    font-size: 15px;
+    font-weight: 500;
+    color: #302d2d;
+}
+
+
+/* Hide all steps by default: */
+
+.tab {
+    display: none;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ee5057;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+
+/* Mark the active step: */
+
+.step.active {
+    opacity: 1;
+}
+
+
+/* Mark the steps that are finished and valid: */
+
+.step.finish {
+    background-color: #ee5057;
+}
+
+.sign_up_cont-page i {
+    color: #ee5057;
+}
+
+
+/* ///////////////////
+//////////////////////////////
+////////////////////////////////////////
+*/
+
+
+/* sign up as user*/
+
+.sign_up_user-page i {
+    color: #ee5057;
+}
+
+.sign_up_user-page {
+    margin-top: 0px;
+}
+
+.sign_up_user-page .border-md {
+    border-width: 2px;
+}
+
+.sign_up_user-page .btn-acc-cre {
+    transition: all 0.5s ease-in-out;
+    background: #ee5057;
+    color: #fff;
+    font-weight: 700;
+    border: solid 2px #ee5057;
+}
+
+.sign_up_user-page .btn-acc-cre:hover,
+.sign_up_user-page .btn-acc-cre:focus {
+    border: solid 0.5px #ee5057;
+    color: #000000;
+    background-color: #fff;
+    box-shadow: 0.22px 0.22px 5px 0.21px #ee5057;
+}
+
+.sign_up_user-page .facebook-icon-sign i {
+    color: #fff;
+    margin-top: -11px;
+    font-size: 22px;
+    border-radius: 90px;
+    border: solid 2px #ee5057;
+    background-color: #ee5057;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sign_up_user-page .facebook-icon-sign i:hover {
+    border: solid 2px #ee5057;
+    color: #ffffff;
+    box-shadow: 0.2px 0.22px 10px 1px #ee5057;
+}
+
+.sign_up_user-page .google-icon-sign i {
+    color: #fff;
+    margin-top: -11px;
+    font-size: 22px;
+    border-radius: 90px;
+    border: solid 2px #ee5057;
+    background-color: #ee5057;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 2px;
+}
+
+.sign_up_user-page .google-icon-sign i:hover {
+    border: solid 2px #ee5057;
+    color: #ffffff;
+    box-shadow: 0.2px 0.22px 10px 1px #ee5057;
+}
+
+.sign_up_user-page .btn-acc-cre i:hover,
+.sign_up_user-page .form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+.sign_up_user-page .select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.sign_up_user-page .form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.sign_up_user-page .type-l-p {
+    height: calc(1.5em + .75rem + 17px);
+    font-size: 15px;
+    font-weight: 500;
+    color: #302d2d;
+}
+
+
+/* ///////////////////
+//////////////////////////////
+////////////////////////////////////////
+*/
+
+
+/* login page*/
+
+.login_user-page {
+    padding-top: 50px;
+}
+
+.login_user-page i {
+    color: #ee5057;
+}
+
+.login_user-page {
+    margin-top: 0px;
+}
+
+.login_user-page .border-md {
+    border-width: 2px;
+}
+
+.login_user-page .btn-acc-cre {
+    transition: all 0.5s ease-in-out;
+    background: #ee5057;
+    color: #fff;
+    font-weight: 700;
+    border: solid 2px #ee5057;
+}
+
+.login_user-page .btn-acc-cre:hover,
+.login_user-page .btn-acc-cre:focus {
+    border: solid 0.5px #ee5057;
+    color: #000000;
+    background-color: #fff;
+    box-shadow: 0.22px 0.22px 5px 0.21px #ee5057;
+}
+
+.login_user-page .facebook-icon-sign i {
+    color: #fff;
+    margin-top: -11px;
+    font-size: 22px;
+    border-radius: 90px;
+    border: solid 2px #ee5057;
+    background-color: #ee5057;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.login_user-page .facebook-icon-sign i:hover {
+    border: solid 2px #ee5057;
+    color: #ffffff;
+    box-shadow: 0.2px 0.22px 10px 1px #ee5057;
+}
+
+.login_user-page .google-icon-sign i {
+    color: #fff;
+    margin-top: -11px;
+    font-size: 22px;
+    border-radius: 90px;
+    border: solid 2px #ee5057;
+    background-color: #ee5057;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 2px;
+}
+
+.login_user-page .google-icon-sign i:hover {
+    border: solid 2px #ee5057;
+    color: #ffffff;
+    box-shadow: 0.2px 0.22px 10px 1px #ee5057;
+}
+
+.login_user-page .btn-acc-cre i:hover,
+.login_user-page .form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+.login_user-page .select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.login_user-page .form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.login_user-page .type-l-p {
+    height: calc(1.5em + .75rem + 17px);
+    font-size: 15px;
+    font-weight: 500;
+    color: #302d2d;
 }

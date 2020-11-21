@@ -31,6 +31,21 @@ class MyController extends Controller
     function Userprofile()
     {
         return view('Userprofile');
+    }  
+
+    function login()
+    {
+        return view('login');
+    }
+
+    function signup_contributer()
+    {
+        return view('signup-contributer');
+    }
+
+    function signup_user()
+    {
+        return view('signup-user');
     }
     
 }

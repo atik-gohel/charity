@@ -358,7 +358,7 @@
 </section>
 
 
-<!-- <section>
+    <!-- <section>
         <div class="banner-section">
             <div class="inner-container-1">
                 <h1>Here To Help <span>You Every Need.</span></h1>
@@ -379,6 +379,8 @@
     </section> -->
 
 
+  
+    
     <section>
         <div class="home-newsletter" >
             <div class="container">
