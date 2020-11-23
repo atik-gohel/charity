@@ -22,9 +22,10 @@
     <nav class="navbar navbar-expand-lg navbar-light py-3">
         <div class="container">
             <!-- Navbar Brand -->
-            <a href="/" class="navbar-brand">
-                <img src="" alt="logo" width="150">
-            </a>
+            <a class="navbar-brand" href="/" target="_blank">	
+                            <h3 class="logo-cw" style="color:  #000;
+	font: normal 28px 'Cookie', cursive;
+	margin: 0;">Charity<span style="color:  #ee5057;">Site</span></h3></a>
         </div>
     </nav>
 </header>
@@ -41,10 +42,16 @@
                     <u>sign up as Contributer</u></a>
                 </p>
             </div>
-
+            @if(session('success'))
+            <h1>{{session('success')}}</h1>
+            @endif
+            
             <!-- Registeration Form -->
             <div class="col-md-7 col-lg-6 ml-auto">
-                <form action="Userprofile" method="POST"> 
+                <form action="/save_data" method="POST"> 
+                {{ csrf_field() }}
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
                     <div class="row">
 
                         <!-- First Name -->
@@ -108,10 +115,11 @@
                      
                         <!-- Submit Button -->
                         <div class="form-group col-lg-12 mx-auto mb-0 ">
-                            <a href="#" class="btn btn-primary btn-block py-2 btn-acc-cre">
+                            <!-- <a href="" class="btn btn-primary btn-block py-2 btn-acc-cre">
                                 <span class="font-weight-bold">Create your account</span>
-                            </a>
+                            </a> --> <input name="button" type="submit" value="submit">
                         </div>
+                       
 
                         <!-- Divider Text -->
                         <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">

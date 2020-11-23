@@ -22,9 +22,10 @@
             <nav class="navbar navbar-expand-lg navbar-light py-3">
                 <div class="container">
                     <!-- Navbar Brand -->
-                    <a href="/" class="navbar-brand">
-                        <img src="" alt="logo" width="150">
-                    </a>
+                    <a class="navbar-brand" href="/" target="_blank">	
+                            <h3 class="logo-cw" style="color:  #000;
+	font: normal 28px 'Cookie', cursive;
+	margin: 0;">Charity<span style="color:  #ee5057;">Site</span></h3></a>
                 </div>
             </nav>
         </header>
@@ -36,7 +37,7 @@
                 <!-- For Demo Purpose -->
                 <div class="col-md-5 pr-lg-5 mb-5 mb-md-0" style="padding-bottom:50px">
                     <img src="img\undraw_Login_re_4vu2.svg" alt="" class="img-fluid mb-3 d-none d-md-block">
-                    <h1>Welcom Back !!</h1>
+                    <h1>Welcome Back !!</h1>
                 </div>
 
                 <!-- Registeration Form -->

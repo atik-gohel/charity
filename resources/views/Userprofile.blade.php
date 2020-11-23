@@ -9,7 +9,7 @@
         <div class="col-md-3 col-sm-12 bg-c-lite-green user-profile  ">
             <div class="text-center text-white ">
                 <div class="u-i-n"> <img src="https://img.icons8.com/bubbles/100/000000/user.png" class="img-radius" alt="User-Profile-Image"> </div>
-                <h6 class="user-naem">Atik Gohel</h6>
+                <h6 class="user-naem">{{$userdata[0]->user_fname}}</h6>
                 <i class="fa fa-sign-out logout-u  "></i> 
             </div>
         </div>

@@ -23,9 +23,10 @@
             <nav class="navbar navbar-expand-lg navbar-light py-3">
                 <div class="container">
                     <!-- Navbar Brand -->
-                    <a href="/" class="navbar-brand">
-                        <img src="" alt="logo" width="150">
-                    </a>
+                    <a class="navbar-brand" href="/" target="_blank">	
+                            <h3 class="logo-cw" style="color:  #000;
+	font: normal 28px 'Cookie', cursive;
+	margin: 0;">Charity<span style="color:  #ee5057;">Site</span></h3></a>
                 </div>
             </nav>
         </header>
@@ -43,10 +44,14 @@
                             <u>Sign up as a User</u></a>
                     </p>
                 </div>
-
+                @if(session('success'))
+            <h1>{{session('success')}}</h1>
+            @endif
                 <!-- Registeration Form -->
                 <div class="col-md-7 col-lg-6 ml-auto">
-                    <form id="regForm" action="">
+                    <form id="regForm" action="/save_charity_data" method="post">
+                    {{ csrf_field() }}
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <!-- One "tab" for each step in the form: -->
                         <div class="tab">
@@ -89,12 +94,9 @@
                                             <i class="fa fa-phone-square "></i>
                                         </span>
                                     </div>
-                                    <select id="countryCode" name="countryCode" style="max-width: 80px" class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
+                                    <!-- <select id="countryCode" name="countryCode" style="max-width: 80px" class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
                                         <option value="">+91</option>
-                                        <option value="">+10</option>
-                                        <option value="">+15</option>
-                                        <option value="">+18</option>
-                                    </select>
+                                    </select> -->
                                     <input id="phoneNumber" type="tel" name="phone" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3">
                                 </div>
 
@@ -105,12 +107,12 @@
                                             <i class="fa fa-black-tie "></i>
                                         </span>
                                     </div>
-                                    <select id="job" name="Type" class="form-control type-l-p custom-select bg-white border-left-0 border-md">
-                                        <option value="">Mony</option>
-                                        <option value="">clothes</option>
-                                        <option value="">Food</option>
-                                        <option value="">child</option>
-                                        <option value="">Woman</option>
+                                    <select id="type" name="type"  class="form-control type-l-p custom-select bg-white border-left-0 border-md">
+                                        <option value="Mony">Mony</option>
+                                        <option value="clothes">clothes</option>
+                                        <option value="Food">Food</option>
+                                        <option value="child">child</option>
+                                        <option value="Woman">Woman</option>
                                         </select>
                                 </div>
 
@@ -158,7 +160,7 @@
                                     <i class="fa fa-map-marker "></i>
                                     </span>
                                 </div>
-                                <textarea id="add" name="add" rows="2" cols="50" placeholder="Address" class="form-control bg-white border-md border-left-0 pl-3" style="margin-top: 0px; margin-bottom: 0px; height: 107px;"></textarea>
+                                <textarea id="add" name="address" rows="2" cols="50" placeholder="Address" class="form-control bg-white border-md border-left-0 pl-3" style="margin-top: 0px; margin-bottom: 0px; height: 107px;"></textarea>
                             </div>
 
                             <!-- Detail -->
@@ -190,9 +192,9 @@
                                     <i class="fa fa-chevron-left mr-2"></i>
                                     <span class="font-weight-bold">Previous</span>
                                 </a>
-                                <a href="#" class="btn  btn-block  btn-Next-sub mt-4" id="nextBtn" onclick="nextPrev(1)">
+                               <a type="submit" class="btn  btn-block  btn-Next-sub mt-4" id="nextBtn" onclick="nextPrev(1)">
                                     <span class="font-weight-bold">Next</span>
-                                </a>
+                                </a><!--<input name="button" id="nextBtn" type="submit" value="submit" onclick="nextPrev(1)>  -->
                             </div>
 
                         </div>

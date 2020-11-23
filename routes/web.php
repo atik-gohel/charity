@@ -19,23 +19,26 @@ Route::get('/', function () {
 });
 
 
-Route::get('about', 'App\Http\Controllers\MyController@menu');
+Route::get('/about', 'App\Http\Controllers\MyController@menu');
 
-Route::get('donate-list', 'App\Http\Controllers\MyController@donate_list');
+Route::get('/donate-list', 'App\Http\Controllers\MyController@donate_list');
 
-Route::get('contactus', 'App\Http\Controllers\MyController@contact_us');
+Route::get('/contactus', 'App\Http\Controllers\MyController@contact_us');
 
-Route::get('CharityName', 'App\Http\Controllers\MyController@CharityName');
+Route::get('/CharityName', 'App\Http\Controllers\MyController@CharityName');
 
-Route::get('Userprofile', 'App\Http\Controllers\MyController@Userprofile');
+Route::get('/Userprofile', 'App\Http\Controllers\MyController@Userprofile');
 
-Route::get('login', 'App\Http\Controllers\MyController@login');
+Route::get('/login', 'App\Http\Controllers\MyController@login');
 
-Route::get('signup-contributer', 'App\Http\Controllers\MyController@signup_contributer');
+Route::get('/signup-contributer', 'App\Http\Controllers\MyController@signup_contributer');
 
-Route::get('signup-user', 'App\Http\Controllers\MyController@signup_user');
+Route::get('/signup-user', 'App\Http\Controllers\MyController@signup_user');
 
-Route::Post('/save_data', 'App\Http\Controllers\MyController@saveData');
+Route::post('/save_data', 'App\Http\Controllers\MyController@saveData');
+
+Route::post('/save_charity_data', 'App\Http\Controllers\MyController@SaveCharityData');
+
 
 
 
