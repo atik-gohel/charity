@@ -35,5 +35,10 @@ Route::get('signup-contributer', 'App\Http\Controllers\MyController@signup_contr
 
 Route::get('signup-user', 'App\Http\Controllers\MyController@signup_user');
 
+Route::Post('/save_data', 'App\Http\Controllers\MyController@saveData');
+
+
+
+
 
 

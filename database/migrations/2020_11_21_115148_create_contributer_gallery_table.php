@@ -14,7 +14,8 @@ class CreateContributerGalleryTable extends Migration
     public function up()
     {
         Schema::create('contributer_gallery', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+
             $table->string('contributer_id');
             $table->string('contributer_galley_photos_path');
             $table->timestamps();

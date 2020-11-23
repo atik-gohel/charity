@@ -14,7 +14,8 @@ class CreateContributerRatingTable extends Migration
     public function up()
     {
         Schema::create('contributer_rating', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+
             $table->string('user_login_id');
             $table->string('contributer_id');
             $table->double('rating');

@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class AdminModel extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+
+    protected $table="admin_detail";
+    protected $primaryKey="id";
 }

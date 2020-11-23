@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class ContributerGalleryModel extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+    
+    protected $table="contributer_galley";
+    protected $primaryKey="id";
 }

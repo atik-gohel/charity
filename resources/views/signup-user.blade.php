@@ -44,7 +44,7 @@
 
             <!-- Registeration Form -->
             <div class="col-md-7 col-lg-6 ml-auto">
-                <form action="#">
+                <form action="Userprofile" method="POST"> 
                     <div class="row">
 
                         <!-- First Name -->

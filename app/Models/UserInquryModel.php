@@ -7,5 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserInquryModel extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+
+           
+    protected $table="user_inqury";
+    protected $primaryKey="id";
 }

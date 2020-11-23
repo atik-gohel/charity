@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Http\Requests;
+
 class MyController extends Controller
 {
     //
@@ -48,4 +50,23 @@ class MyController extends Controller
         return view('signup-user');
     }
     
+
+    public function insert(Request $request) {
+        $fristname = $request->input('firstname');
+        $lastname = $request->input('lastname');
+        $email = $request->input('email');
+        $password = $request->input('password');
+        $phone = $request->input('phone');
+
+        $savedata = new UserLoginModel;
+
+        $savedata->	user_fname = $fristname;
+        $savedata->	user_lname = $lastname;
+        $savedata->	user_email = $email;
+        $savedata->	user_password = $password;
+        $savedata->	user_number = $phone;
+
+        $savedata->save();
+     }
+
 }

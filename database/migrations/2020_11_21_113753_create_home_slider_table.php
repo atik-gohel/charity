@@ -14,7 +14,8 @@ class CreateHomeSliderTable extends Migration
     public function up()
     {
         Schema::create('home_slider', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+
             $table->string('slider_title');
             $table->string('slider_img_path');
             $table->string('slider_sub_title');

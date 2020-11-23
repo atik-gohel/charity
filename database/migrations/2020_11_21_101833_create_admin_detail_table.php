@@ -13,14 +13,14 @@ class CreateAdminDetailTable extends Migration
      */
     public function up()
     {
-        Schema::create('admin_detail', function (Blueprint $ad_table) {
-            $adtable->id();
-            $adtable->string('admin_username');
-            $adtable->password('admin_password');
-            $adtable->email('admin_email');
-            $adtable->string('admin_location');
-            $adtable->string('admin_number');
-            $adtable->timestamps();
+        Schema::create('admin_detail', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('admin_username');
+            $table->string('admin_password');
+            $table->string('admin_email');
+            $table->string('admin_location');
+            $table->string('admin_number');
+            $table->timestamps();
         });
     }
 

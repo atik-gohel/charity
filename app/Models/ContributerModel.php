@@ -7,5 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class ContributerModel extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+
+       
+    protected $table="contributer";
+    protected $primaryKey="id";
 }

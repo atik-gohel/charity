@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserLoginModel extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+    protected $table="user_detail";
+    protected $primaryKey="id";
 }

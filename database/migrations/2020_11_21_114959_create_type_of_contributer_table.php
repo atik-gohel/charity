@@ -14,7 +14,8 @@ class CreateTypeOfContributerTable extends Migration
     public function up()
     {
         Schema::create('type_of_contributer', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+
             $table->string('type_of_contributer_name');
             $table->timestamps();
         });

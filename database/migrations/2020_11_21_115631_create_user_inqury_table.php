@@ -14,7 +14,8 @@ class CreateUserInquryTable extends Migration
     public function up()
     {
         Schema::create('user_inqury', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+
             $table->string('user_inqury_name');
             $table->string('user_inqury_email');
             $table->string('user_inqury_subject');

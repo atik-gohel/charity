@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class TypeOfContributerModel extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+
+    
+       
+    protected $table="type_of_contributer";
+    protected $primaryKey="id";
 }
