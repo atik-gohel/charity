@@ -16,7 +16,7 @@
             <section id="hero" class="d-flex align-items-center">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+                        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch  pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
                             <div>
                                 <h1>Here We Are For You</h1>
                                 <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
@@ -149,7 +149,7 @@
 
     <div class="container">
         <div class="row" id=filter-itme>
-            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
+        <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -162,7 +162,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -196,7 +196,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -230,7 +230,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -264,7 +264,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -298,7 +298,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -332,7 +332,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -352,6 +352,76 @@
                     </div>
                 </div>
             </li>
+
+            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
+                <div class="w-grid ">
+                    <div class="wrapper ">
+
+                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+
+                        <div class="title-grid">Chail donation</div>
+                        <div class="place-grid">Junagadh, Gujarat</div>
+                    </div>
+                    <div class="content-1">
+                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                        <div>
+                            <button type="button" class="btn-1">Donate Now</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star-o" data-rating="1"></span>
+                        <span class="fa fa-star-o" data-rating="2"></span>
+                        <span class="fa fa-star-o" data-rating="3"></span>
+                        <span class="fa fa-star-o" data-rating="4"></span>
+                        <span class="fa fa-star-o" data-rating="5"></span>
+                        <input type="hidden" name="whatever1" class="rating-value">
+                    </div>
+                    <div class="icons">
+                        <ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
+                <div class="w-grid ">
+                    <div class="wrapper ">
+
+                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
+
+                        <div class="title-grid">Chail donation</div>
+                        <div class="place-grid">Junagadh, Gujarat</div>
+                    </div>
+                    <div class="content-1">
+                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                        <div>
+                            <button type="button" class="btn-1">Donate Now</button>
+                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star-o" data-rating="1"></span>
+                        <span class="fa fa-star-o" data-rating="2"></span>
+                        <span class="fa fa-star-o" data-rating="3"></span>
+                        <span class="fa fa-star-o" data-rating="4"></span>
+                        <span class="fa fa-star-o" data-rating="5"></span>
+                        <input type="hidden" name="whatever1" class="rating-value">
+                    </div>
+                    <div class="icons">
+                        <ul>
+                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+         
         </div>
     </div>
 

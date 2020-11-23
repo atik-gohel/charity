@@ -18,20 +18,20 @@
 	<!-- /features -->
 		<div class="features py-5" id="features">
       <div class="container py-lg-5">
-			  <div class="row">
-          <div class="col-lg-8 row mb-lg-0 mb-5 pr-lg-5">	
+			  <div class="row ">
+          <div class="col-lg-8 row mb-lg-0 mb-5 pr-lg-5 ml-0 mr-0 ">	
             <div class="float-lt feature-gd col-md-6">	
-                <img src="https://source.unsplash.com/1300x900/?mission" class="img-fluid" alt="">
+                <img src="https://source.unsplash.com/1300x900/?mission" class="img-fluid " alt="">
                 <div >
-                  <h5>Our Mission</h5>
-                  <p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
+                  <h5 class="text-md-left text-center">Our Mission</h5>
+                  <p class="text-md-left text-center"> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
                 </div>	 
             </div>	
             <div class="float-mid feature-gd col-md-6 mt-md-0 mt-5">	
               <img src="https://source.unsplash.com/1300x900/?vision" class="img-fluid" alt="">
                 <div>
-                  <h5 >Our Vision</h5>
-                  <p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
+                  <h5 class="text-md-left text-center">Our Vision</h5>
+                  <p class="text-md-left text-center"> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
                 </div>
             </div> 
           </div> 
@@ -44,7 +44,7 @@
                 We are always looking ahead to stay on top of the latest. 
               </p>
             </blockquote>
-            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices posuere primis in faucibus</p>
+            <p class="text-md-left text-center">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices posuere primis in faucibus</p>
 			    </div>
 		    </div>
 		  </div>
@@ -64,8 +64,8 @@
                     <img src="https://source.unsplash.com/1300x900/?why" class="img-fluid" alt="" />
                 </div>
                 <div class="cwp4-text col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                        <h3>Why choose Us</h3>                   
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nemo ea ex temporibus, nihil omnis iste? Rem quo mollitia quaerat consequuntur corporis dolorem fugiat velit eum dolor, consectetur laborum hic, architect</p>
+                        <h3 class="text-md-left text-center">Why choose Us</h3>                   
+                  <p class="text-md-left text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nemo ea ex temporibus, nihil omnis iste? Rem quo mollitia quaerat consequuntur corporis dolorem fugiat velit eum dolor, consectetur laborum hic, architect</p>
                     <ul class="cont-4">
                         <li><span class="fa fa-check"></span>Lorem ipsum dolor sit amet consectetur adipisicing el</li>
                         <li><span class="fa fa-check"></span>Lorem ipsum dolor sit amet consectetur adip</li>
@@ -83,7 +83,7 @@
 
 <section class="atik-specifications-9">
     <div class="main-w3 py-5" id="stats">
-        <div class="container py-md-3">
+        <div class="container py-md-1">
             
            <div class="main-cont-wthree-fea row ">
                 <div class="grids-speci1 col-lg-3 col-6">
@@ -126,11 +126,11 @@
 <section class="w3l-team-main" id="team">
 		<div class="team py-5">
 			<div class="container py-lg-4">
-				<div class="heading text-center mx-auto">
+				<div class="section-title text-center mx-auto">
 					<h3 class="head">Our Team</h3>
-					<p class="my-3 head "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, dolorum unde?elit. Repellendus, dolorum unde?</p>
+					<p class=" head "> </p>
 				  </div>
-				<div class="row team-row pt-3 mt-5">
+				<div class="row team-row pt-1 mt-5">
 					<div class="col-lg-6 col-6 team-wrap">
 						<div class="team-info text-center">
 							<div class=" position-relative">

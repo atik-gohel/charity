@@ -27,10 +27,10 @@
                     <div class="col-12">
                         <nav class="navbar navbar-expand-md navbar-light">
 
-                            <!-- <a class="navbar-brand" href="#" target="_blank">Atik</a>	 -->
+                           <a class="navbar-brand" href="/" target="_blank">	
                             <h3 class="logo-cw" style="color:  #000;
 	font: normal 28px 'Cookie', cursive;
-	margin: 0;">Charity<span style="color:  #5383d3;">Site</span></h3>
+	margin: 0;">Charity<span style="color:  #ee5057;">Site</span></h3></a>
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
@@ -122,7 +122,7 @@
             <div class="footer-right">
 
                 <p class="footer-company-about">
-                    <span>About the company</span> This Trick is a mannagement management for Charity.
+                    <span>About the company</span> This Trick is a management for Charity.
                 </p>
 
                 <div class="footer-icons">

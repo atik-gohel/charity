@@ -39,7 +39,7 @@
     <div class="container">
 
 
-        <div class="row ">
+        <div class="row mr-0 ml-0">
 
             <!-- <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
@@ -59,7 +59,7 @@
 
         
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -72,7 +72,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -94,7 +94,7 @@
             </div>
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -107,7 +107,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -130,7 +130,7 @@
 
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -143,7 +143,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -165,7 +165,7 @@
             </div>
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -178,7 +178,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -200,7 +200,7 @@
             </div>
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -213,7 +213,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -236,7 +236,7 @@
 
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -249,7 +249,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -272,7 +272,7 @@
 
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -285,7 +285,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -308,7 +308,7 @@
 
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -321,7 +321,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -343,7 +343,7 @@
             </div>
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -356,7 +356,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -379,7 +379,7 @@
 
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -392,7 +392,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -416,7 +416,7 @@
 
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -429,7 +429,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -452,7 +452,7 @@
 
 
 
-            <div class="col-xl-3 col-md-4 col--6 col-sm-6  mb-4" data-category="1">
+            <div class="col-xl-3 col-md-4 mr  col-sm-6  mb-4" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
@@ -465,7 +465,7 @@
                         <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <button type="button" class="btn-1">More Detail</button>
+                            <button type="button" class="btn-1 mt-1">More Detail</button>
                         </div>
                     </div>
                     <div class="star-rating">

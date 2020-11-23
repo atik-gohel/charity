@@ -18,7 +18,6 @@ class CreateContributerRatingTable extends Migration
             $table->string('user_login_id');
             $table->string('contributer_id');
             $table->double('rating');
-
             $table->timestamps();
         });
     }
