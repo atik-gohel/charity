@@ -1758,7 +1758,7 @@ blockquote {
 
 .donate-list-grid .w-grid .icons {
     position: relative;
-    margin-top: -373px;
+    margin-top: -355px;
     /* margin-left: 10px */
 }
 
@@ -2069,13 +2069,13 @@ blockquote {
     font-weight: 600;
     color: #6c757d;
     cursor: pointer;
+    width: auto;
     font-family: 'Raleway';
     letter-spacing: 1px;
 }
 
 .btn-edit-profile-con:hover {
-    width: 100%;
-    padding: 2%;
+    width: auto;
     font-weight: 600;
     color: #ee5057;
     cursor: pointer;

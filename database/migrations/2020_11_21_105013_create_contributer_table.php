@@ -18,6 +18,7 @@ class CreateContributerTable extends Migration
             $table->string('contributer_fname');
             $table->string('contributer_lname');
             $table->string('contributer_email');
+            $table->string('contributer_charityname');
             $table->string('contributer_number');
             $table->string('contributer_type');
             $table->string('contributer_password');

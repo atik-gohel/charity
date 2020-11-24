@@ -15,7 +15,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body> 
     <section class="login_user-page-header">
         <!-- Navbar-->
         <header class="header">
@@ -39,11 +39,16 @@
                     <img src="img\undraw_Login_re_4vu2.svg" alt="" class="img-fluid mb-3 d-none d-md-block">
                     <h1>Welcome Back !!</h1>
                 </div>
-
+                @if(session('success'))
+            <h1>{{session('success')}}</h1>
+            @endif
                 <!-- Registeration Form -->
                 <div class="col-md-7 col-lg-6 ml-auto">
                     <h1 class="text-center mb-3 pb-3">Login</h1>
-                    <form action="#">
+                    <form action="checkdata" method="POST">
+                    {{ csrf_field() }}
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
                         <div class="row">
 
 
@@ -71,9 +76,9 @@
 
                             <!-- Submit Button -->
                             <div class="form-group col-lg-12 mx-auto mb-0 ">
-                                <a href="#" class="btn btn-primary btn-block py-2 btn-acc-cre">
+                                <!-- <a href="#" class="btn btn-primary btn-block py-2 btn-acc-cre">
                                     <span class="font-weight-bold">Login</span>
-                                </a>
+                                </a> --> <input name="button" type="submit" value="Login" class="btn btn-primary btn-block py-2 btn-acc-cre">
                             </div>
 
                             <!-- Divider Text -->

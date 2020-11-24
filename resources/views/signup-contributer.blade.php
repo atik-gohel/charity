@@ -77,6 +77,16 @@
                                     <input id="lastName" type="text" name="lastname" placeholder="Last Name" class="form-control bg-white border-left-0 border-md">
                                 </div>
 
+                                 <!-- charity name -->
+                                 <div class="input-group col-lg-12 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                    <i class="fa fa-envelope "></i>
+                                </span>
+                                    </div>
+                                    <input id="charitynametitle" type="text" name="charitynametitle" placeholder="Add your charity Name" class="form-control bg-white border-left-0 border-md">
+                                </div>
+
                                 <!-- Email Address -->
                                 <div class="input-group col-lg-12 mb-4">
                                     <div class="input-group-prepend">

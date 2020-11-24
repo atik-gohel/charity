@@ -117,7 +117,7 @@
                         <div class="form-group col-lg-12 mx-auto mb-0 ">
                             <!-- <a href="" class="btn btn-primary btn-block py-2 btn-acc-cre">
                                 <span class="font-weight-bold">Create your account</span>
-                            </a> --> <input name="button" type="submit" value="submit">
+                            </a> --> <input name="button" type="submit" value="submit" class="btn btn-primary btn-block py-2 btn-acc-cre">
                         </div>
                        
 

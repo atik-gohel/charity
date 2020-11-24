@@ -149,54 +149,22 @@
 
     <div class="container">
         <div class="row" id=filter-itme>
-        <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
-                <div class="w-grid ">
-                    <div class="wrapper ">
 
-                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value">
-                    </div>
-                    <div class="icons">
-                        <ul>
-                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
+        @foreach($charityuserdata as $charityuserdata)
             <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
                 <div class="w-grid ">
                     <div class="wrapper ">
 
                         <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
 
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
+                        <div class="title-grid">{{$charityuserdata->contributer_charityname}}</div>
+                        <div class="place-grid">{{$charityuserdata->contributer_city}}</div>
                     </div>
                     <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
+                        <p class="mr-2 ml-2 text-truncate">{{$charityuserdata->contributer_detail}}</p>
                         <div>
                             <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
+                            <a href="{{url('CharityName',$charityuserdata->id)}}">  <button  type="button" class="btn-1 ">More Detail</button></a>
                         </div>
                     </div>
                     <div class="star-rating">
@@ -217,210 +185,7 @@
                 </div>
             </li>
 
-            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
-                <div class="w-grid ">
-                    <div class="wrapper ">
-
-                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value">
-                    </div>
-                    <div class="icons">
-                        <ul>
-                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
-                <div class="w-grid ">
-                    <div class="wrapper ">
-
-                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value">
-                    </div>
-                    <div class="icons">
-                        <ul>
-                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
-                <div class="w-grid ">
-                    <div class="wrapper ">
-
-                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value">
-                    </div>
-                    <div class="icons">
-                        <ul>
-                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
-                <div class="w-grid ">
-                    <div class="wrapper ">
-
-                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value">
-                    </div>
-                    <div class="icons">
-                        <ul>
-                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
-                <div class="w-grid ">
-                    <div class="wrapper ">
-
-                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value">
-                    </div>
-                    <div class="icons">
-                        <ul>
-                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li class="col-lg-3 col-md-4  col-sm-6 col-12" data-category="1">
-                <div class="w-grid ">
-                    <div class="wrapper ">
-
-                        <img src="https://source.unsplash.com/featured/?Donation" id="iggrid">
-
-                        <div class="title-grid">Chail donation</div>
-                        <div class="place-grid">Junagadh, Gujarat</div>
-                    </div>
-                    <div class="content-1">
-                        <p>Lorem ipsum dolor cupiditate, <br>asperiores aut.</p>
-                        <div>
-                            <button type="button" class="btn-1">Donate Now</button>
-                            <a href="CharityName"><button type="button" class="btn-1">View Prifile</button></a>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value">
-                    </div>
-                    <div class="icons">
-                        <ul>
-                            <li> <a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
+        @endforeach
          
         </div>
     </div>
